@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <img src="/Users/michaeljukic/Downloads/Logomakr_31Vz2D.png" img align="right" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 20px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+
+<body>
+  <link rel="stylesheet" href="styles.css">
+</body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">Basic info of networking</a>
+  <a href="#" id="blog">Cybersecurity Breif</a>
+  <a href="#" id="projects">Do's and Don'ts of the internet</a>
+  <a href="#" id="contact">Contact</a>
+</div>
+
+
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Michael's Tech Tips</h1>
+</header>
+
+
+<article class="article">
+  <h1>Home</h1>
+  <p><strong>Welcome to Michael's Tech Tips. This site focuses the basic net knowlodge of the internet please browse our many pages on safety on the internet. </strong></p>
+  <a href="www.mackeeper.com"
+  <img src="giphy.gif" alt="Laptop Virus Icon" style="float:right;width:200 px;height:200px">
+</article>
+
+
+<footer>Copyright &copy; michaelstechtips.com</footer>
+
+</div>
+
+<div>
+
+</div>
+
+</body>
+</html>
